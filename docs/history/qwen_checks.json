@@ -1,0 +1,14 @@
+{
+  "selected_on_dev": {
+    "checkpoint": "dev_checkpoint-2142.jsonl",
+    "mode": "baseline",
+    "reason": "maximize dev temporal among invariant-safe modes; require strict improvement over baseline"
+  },
+  "all_safe_modes_preserve_non_temporal_metrics": true,
+  "safe_modes_preserve_fact_identity_count_order_and_sources": true,
+  "state_guard_uses_no_gold": true,
+  "val_baseline_reproduces_uploaded_metrics": true,
+  "n_calls": 383,
+  "empty_facts_rows": 15,
+  "qwen_inference_rerun_locally": false
+}

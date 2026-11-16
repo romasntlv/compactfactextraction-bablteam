@@ -1,0 +1,159 @@
+{
+  "baseline": {
+    "metrics_version": "2.1",
+    "n_calls": 383,
+    "n_gold_facts": 1845,
+    "n_pred_facts": 2067,
+    "fact_precision": 0.5181,
+    "fact_recall": 0.5805,
+    "temporal_recall": 0.5125,
+    "n_temporal": 640,
+    "state_accuracy": 0.5682,
+    "n_state": 623,
+    "grounding_turn": 0.8189,
+    "grounding_span": null,
+    "n_grounded": 1071,
+    "evaluation_seconds": 7.3734518340206705,
+    "temporal_ok": 328,
+    "state_ok": 354
+  },
+  "agreement_only": {
+    "metrics": {
+      "metrics_version": "2.1",
+      "n_calls": 383,
+      "n_gold_facts": 1845,
+      "n_pred_facts": 2067,
+      "fact_precision": 0.5181,
+      "fact_recall": 0.5805,
+      "temporal_recall": 0.4953,
+      "n_temporal": 640,
+      "state_accuracy": 0.5682,
+      "n_state": 623,
+      "grounding_turn": 0.8189,
+      "grounding_span": null,
+      "n_grounded": 1071,
+      "evaluation_seconds": 0.6328503330005333,
+      "temporal_ok": 317,
+      "state_ok": 354
+    },
+    "timing": {
+      "calls": 383,
+      "total_seconds": 0.040759531999999966,
+      "mean_ms_per_call": 0.10642175456919051,
+      "median_ms": 0.10075,
+      "p95_ms": 0.198,
+      "max_ms": 0.342625,
+      "scope": "CPU normalization incl copies and state guard; excludes reading, model generation and evaluator",
+      "stats": {
+        "sure": 255,
+        "changed_facts": 161,
+        "callday": 237
+      }
+    }
+  },
+  "all_safe": {
+    "metrics": {
+      "metrics_version": "2.1",
+      "n_calls": 383,
+      "n_gold_facts": 1845,
+      "n_pred_facts": 2067,
+      "fact_precision": 0.5181,
+      "fact_recall": 0.5805,
+      "temporal_recall": 0.4906,
+      "n_temporal": 640,
+      "state_accuracy": 0.5682,
+      "n_state": 623,
+      "grounding_turn": 0.8189,
+      "grounding_span": null,
+      "n_grounded": 1071,
+      "evaluation_seconds": 0.6329189999960363,
+      "temporal_ok": 314,
+      "state_ok": 354
+    },
+    "timing": {
+      "calls": 383,
+      "total_seconds": 0.06312597599999999,
+      "mean_ms_per_call": 0.16481978067885114,
+      "median_ms": 0.157458,
+      "p95_ms": 0.2875,
+      "max_ms": 0.3855,
+      "scope": "CPU normalization incl copies and state guard; excludes reading, model generation and evaluator",
+      "stats": {
+        "sure": 481,
+        "changed_facts": 214,
+        "callday": 906,
+        "drop": 155,
+        "state_order_rollback": 17,
+        "future_status_rejected": 9,
+        "inverted_rejected": 1
+      }
+    }
+  },
+  "anchor_only": {
+    "metrics": {
+      "metrics_version": "2.1",
+      "n_calls": 383,
+      "n_gold_facts": 1845,
+      "n_pred_facts": 2067,
+      "fact_precision": 0.5181,
+      "fact_recall": 0.5805,
+      "temporal_recall": 0.4969,
+      "n_temporal": 640,
+      "state_accuracy": 0.5682,
+      "n_state": 623,
+      "grounding_turn": 0.8189,
+      "grounding_span": null,
+      "n_grounded": 1071,
+      "evaluation_seconds": 0.6334692079690285,
+      "temporal_ok": 318,
+      "state_ok": 354
+    },
+    "timing": {
+      "calls": 383,
+      "total_seconds": 0.062683245,
+      "mean_ms_per_call": 0.16366382506527416,
+      "median_ms": 0.158084,
+      "p95_ms": 0.282291,
+      "max_ms": 0.391625,
+      "scope": "CPU normalization incl copies and state guard; excludes reading, model generation and evaluator",
+      "stats": {
+        "sure": 481,
+        "changed_facts": 178,
+        "callday": 906,
+        "drop": 155,
+        "state_order_rollback": 11,
+        "future_status_rejected": 8
+      }
+    }
+  },
+  "original_diagnostic": {
+    "metrics": {
+      "metrics_version": "2.1",
+      "n_calls": 383,
+      "n_gold_facts": 1845,
+      "n_pred_facts": 1014,
+      "fact_precision": 0.4556,
+      "fact_recall": 0.2504,
+      "temporal_recall": 0.7937,
+      "n_temporal": 223,
+      "state_accuracy": 0.2343,
+      "n_state": 623,
+      "grounding_turn": 0.7814,
+      "grounding_span": null,
+      "n_grounded": 462,
+      "evaluation_seconds": 0.24786441703327,
+      "temporal_ok": 177,
+      "state_ok": 146
+    },
+    "timing": {
+      "calls": 383,
+      "total_seconds": 0.12017699599999992,
+      "mean_ms_per_call": 0.3137780574412531,
+      "median_ms": 0.232625,
+      "p95_ms": 0.777625,
+      "max_ms": 1.599583,
+      "scope": "CPU normalization incl copies and state guard; excludes reading, model generation and evaluator",
+      "stats": {}
+    }
+  }
+}

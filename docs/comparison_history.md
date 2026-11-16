@@ -1,5 +1,7 @@
 # Сравнение решений CompactFactExtraction
 
+> История экспериментов. Планы и статусы в старых разделах относятся к моменту соответствующего опыта. Актуальная поставка — [README](../README.md) и [READINESS](../reports/READINESS.md); нужные исторические метрики скопированы в history/.
+
 Дата отчёта: 15 ноября 2026. Команда 3. Официальный оценщик: **case_metrics.py 2.1**.
 
 ## Рекомендуемое решение
@@ -81,7 +83,7 @@ Temporal_recall оценивает обе границы по дню тольк�
 
 Dev Qwen: 2176,422 с на 385 звонков, в среднем 5,653 с/звонок. Индивидуальные времена GPU-генерации в загруженном архиве отсутствуют, поэтому percentiles восстановить нельзя.
 
-**Гибрид USER2-base на CPU:** 458 мс от транскрипта до JSON с фактами, Apple M4, 4 потока, медиана 7 повторов одного звонка с 17 репликами (451–465 мс). Первый проход после загрузки — 533 мс, инициализация — 352 мс. Метрики качества гибрида посчитаны на всех 383 звонках с сохранённым ранжированием; полный CPU/GPU-прогон и пиковая память гибрида на всём val пока не измерены. [Скрипт замера](participant3/benchmark_hybrid_cpu.py).
+**Гибрид USER2-base на CPU:** 458 мс от транскрипта до JSON с фактами, Apple M4, 4 потока, медиана 7 повторов одного звонка с 17 репликами (451–465 мс). Первый проход после загрузки — 533 мс, инициализация — 352 мс. Метрики качества гибрида посчитаны на всех 383 звонках с сохранённым ранжированием; полный CPU/GPU-прогон и пиковая память гибрида на всём val пока не измерены. Скрипт замера (архивный путь рабочей папки: `participant3/benchmark_hybrid_cpu.py`).
 
 ### Ресурсы обучения — отдельно от инференса
 
@@ -140,22 +142,22 @@ Dev Qwen: 2176,422 с на 385 звонков, в среднем 5,653 с/зво
 
 Все ссылки ниже относительны корню проекта.
 
-- [Исходные метрики Qwen val](participant3/qwen_dates/input/val_metrics.json).
-- [Ресурсы Qwen val](participant3/qwen_dates/input/val_facts.jsonl.resources.json).
-- [Конфигурация модели](participant3/qwen_dates/input/model_manifest.json).
-- [Выбор checkpoint на dev](participant3/qwen_dates/input/dev_selection.json).
-- [Ресурсы обучения](participant3/qwen_dates/input/training_resources.json).
-- [Официальная база](case_data/baseline_metrics.json).
-- [Предыдущее решение USER2](participant3/research_v3/final/report.json).
-- [Сравнение нормализаторов и время](participant3/qwen_dates/val_report.json).
-- [Проверки сохранения метрик](participant3/qwen_dates/checks.json).
-- [Рекомендованные факты val](participant3/qwen_dates/val_recommended.jsonl).
-- [Полный разбор эксперимента с датами](participant3/qwen_dates/README.md).
-- [Архив эксперимента](Qwen_date_extractor_comparison.zip).
+- [Исходные метрики Qwen val](../reports/val_metrics.json).
+- [Ресурсы Qwen val](../reports/val_facts.jsonl.resources.json).
+- [Конфигурация модели](../models/training_manifest.json).
+- [Выбор checkpoint на dev](../reports/dev_selection.json).
+- [Ресурсы обучения](../reports/training_resources.json).
+- [Официальная база](case/baseline_metrics.json).
+- [Предыдущее решение USER2](history/user2_top8_report.json).
+- [Сравнение нормализаторов и время](history/qwen_date_ablation_val.json).
+- [Проверки сохранения метрик](history/qwen_checks.json).
+- [Рекомендованные факты val](history/qwen_val.jsonl).
+- Полный разбор эксперимента с датами (архивный путь рабочей папки: `participant3/qwen_dates/README.md`).
+- Архив эксперимента (архивный путь рабочей папки: `Qwen_date_extractor_comparison.zip`).
 
 Для воспроизведения сравнения готовых предсказаний: `python3 participant3/qwen_dates/run.py`, затем `python3 participant3/qwen_dates/evaluate_val.py`. Для генерации модели нужны исходный Kaggle notebook, базовая модель закреплённой ревизии и адаптер из `cfe_result.zip`.
-- [Отчёт гибрида USER2-base](participant3/user2_date_hybrid/report.json).
-- [Факты гибрида на val](participant3/user2_date_hybrid/val_top16_original_plus_states_facts.jsonl).
+- [Отчёт гибрида USER2-base](history/user2_hybrid_report.json).
+- [Факты гибрида на val](history/user2_hybrid_val.jsonl).
 
 ## Требования кейса к решению
 
@@ -166,12 +168,12 @@ Dev Qwen: 2176,422 с на 385 звонков, в среднем 5,653 с/зво
 - **Поставка.** Веса и конфигурация инференса, код воспроизводимого обучения с фиксированными сидами, исходники и документация по развёртыванию, Docker-образ с HTTP-интерфейсом.
 - **Защита.** Архитектура и обучение, сравнение с baseline, сильные стороны и ограничения, живая или видеодемонстрация. Предложения по дообучению на реальных данных без ручной разметки, расширению атрибутов и многоязычности.
 
-[Описание кейса](Кейс_CompactFactExtraction.pdf) · [Критерии жюри](<Критерии оценивания МТС MWS CompactFactExtraction.pdf>)
+[Описание кейса](case/Кейс_CompactFactExtraction.pdf) · [Критерии жюри](<case/Критерии оценивания МТС MWS CompactFactExtraction.pdf>)
 
 
 ## Проверка упаковки Qwen — 15 ноября 2026
 
-Код, автономные merged-веса и инструкции: [qwen_release/README.md](qwen_release/README.md). Полный отчёт: [REPORT.md](qwen_release/reports/REPORT.md); статус: [READINESS.md](qwen_release/reports/READINESS.md). Презентация и финальный архив сдачи в этот этап не входят.
+Код, автономные merged-веса и инструкции: [qwen_release/README.md](../README.md). Полный отчёт: [REPORT.md](../reports/REPORT.md); статус: [READINESS.md](../reports/READINESS.md). Презентация и финальный архив сдачи в этот этап не входят.
 
 | Проверка | Результат | Область измерения |
 |---|---|---|
