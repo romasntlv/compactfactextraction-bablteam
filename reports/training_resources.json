@@ -1,0 +1,5 @@
+{
+  "train_seconds": 14819.840122554,
+  "peak_cuda_allocated_bytes": 4271887360,
+  "peak_cuda_reserved_bytes": 14753464320
+}

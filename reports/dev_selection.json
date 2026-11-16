@@ -1,0 +1,80 @@
+{
+  "candidates": [
+    {
+      "checkpoint": "/kaggle/working/cfe_run_augmented/checkpoint-1071",
+      "prediction": "/kaggle/working/cfe_run_augmented/dev_checkpoint-1071.jsonl",
+      "metrics": {
+        "metrics_version": "2.1",
+        "n_calls": 385,
+        "n_gold_facts": 1805,
+        "n_pred_facts": 2464,
+        "fact_precision": 0.4192,
+        "fact_recall": 0.5723,
+        "temporal_recall": 0.4902,
+        "n_temporal": 610,
+        "state_accuracy": 0.5506,
+        "n_state": 583,
+        "grounding_turn": 0.7735,
+        "grounding_span": null,
+        "n_grounded": 1033,
+        "temporal_ok": 299,
+        "state_ok": 321,
+        "empty_facts_rows": 2,
+        "temporal_pass": true,
+        "state_pass": true
+      }
+    },
+    {
+      "checkpoint": "/kaggle/working/cfe_run_augmented/checkpoint-2142",
+      "prediction": "/kaggle/working/cfe_run_augmented/dev_checkpoint-2142.jsonl",
+      "metrics": {
+        "metrics_version": "2.1",
+        "n_calls": 385,
+        "n_gold_facts": 1805,
+        "n_pred_facts": 2041,
+        "fact_precision": 0.5071,
+        "fact_recall": 0.5734,
+        "temporal_recall": 0.5222,
+        "n_temporal": 609,
+        "state_accuracy": 0.5609,
+        "n_state": 583,
+        "grounding_turn": 0.8193,
+        "grounding_span": null,
+        "n_grounded": 1035,
+        "temporal_ok": 318,
+        "state_ok": 327,
+        "empty_facts_rows": 10,
+        "temporal_pass": true,
+        "state_pass": true
+      }
+    }
+  ],
+  "selected": {
+    "checkpoint": "/kaggle/working/cfe_run_augmented/checkpoint-2142",
+    "prediction": "/kaggle/working/cfe_run_augmented/dev_checkpoint-2142.jsonl",
+    "metrics": {
+      "metrics_version": "2.1",
+      "n_calls": 385,
+      "n_gold_facts": 1805,
+      "n_pred_facts": 2041,
+      "fact_precision": 0.5071,
+      "fact_recall": 0.5734,
+      "temporal_recall": 0.5222,
+      "n_temporal": 609,
+      "state_accuracy": 0.5609,
+      "n_state": 583,
+      "grounding_turn": 0.8193,
+      "grounding_span": null,
+      "n_grounded": 1035,
+      "temporal_ok": 318,
+      "state_ok": 327,
+      "empty_facts_rows": 10,
+      "temporal_pass": true,
+      "state_pass": true
+    }
+  },
+  "thresholds": {
+    "temporal": 0.44707,
+    "state": 0.5145
+  }
+}

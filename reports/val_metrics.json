@@ -1,0 +1,20 @@
+{
+  "metrics_version": "2.1",
+  "n_calls": 383,
+  "n_gold_facts": 1845,
+  "n_pred_facts": 2067,
+  "fact_precision": 0.5181,
+  "fact_recall": 0.5805,
+  "temporal_recall": 0.5125,
+  "n_temporal": 640,
+  "state_accuracy": 0.5682,
+  "n_state": 623,
+  "grounding_turn": 0.8189,
+  "grounding_span": null,
+  "n_grounded": 1071,
+  "temporal_ok": 328,
+  "state_ok": 354,
+  "empty_facts_rows": 15,
+  "temporal_pass": true,
+  "state_pass": true
+}

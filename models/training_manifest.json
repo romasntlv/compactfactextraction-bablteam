@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "base_parameters": 494032768,
+  "trainable_parameters": 17596416,
+  "torch": "2.11.0+cu130",
+  "transformers": "4.57.1",
+  "peft": "0.17.1",
+  "gpu": "Tesla T4",
+  "train": {
+    "source": 17133,
+    "skipped_oversize": 0,
+    "context_lines_removed": 1
+  },
+  "dev": {
+    "source": 1668,
+    "skipped_oversize": 0,
+    "context_lines_removed": 1
+  },
+  "seed": 42,
+  "train_data": "/kaggle/working/cfe_ready/prepared/train_augmented.jsonl",
+  "train_sha256": "c784e302cab2604ce664334093d9061d9ecc661e7541d314bbd31ddf72445087"
+}

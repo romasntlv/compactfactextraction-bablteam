@@ -1,0 +1,13 @@
+{
+  "context_lines_removed": 0,
+  "windows": 1712,
+  "output_tokens": 69683,
+  "generation_limit_hits": 0,
+  "invalid_rows": 0,
+  "calls": 383,
+  "wall_seconds": 2186.5076385790017,
+  "seconds_per_call": 5.7088972286658,
+  "peak_cuda_allocated_bytes": 1350821376,
+  "peak_cuda_reserved_bytes": 3063939072,
+  "parameters": 494032768
+}

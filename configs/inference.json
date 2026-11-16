@@ -1,0 +1,13 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "checkpoint": "checkpoint-2142",
+  "central": 6,
+  "radius": 3,
+  "max_input": 1536,
+  "max_window_tokens": 8192,
+  "max_new_tokens": 640,
+  "do_sample": false,
+  "seed": 42,
+  "date_extractor": false
+}

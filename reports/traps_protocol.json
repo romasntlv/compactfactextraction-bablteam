@@ -1,0 +1,30 @@
+{
+  "scope": "5 manually authored empty-fact contract probes, not accuracy benchmark",
+  "cases": [
+    {
+      "call_id": "manual_unconfirmed_offer",
+      "expectation": "Неподтверждённое предложение",
+      "expected_facts": 0
+    },
+    {
+      "call_id": "manual_rejected_guess",
+      "expectation": "Отвергнутая догадка, неизвестное значение не выдумывать",
+      "expected_facts": 0
+    },
+    {
+      "call_id": "manual_third_party",
+      "expectation": "Чужая услуга",
+      "expected_facts": 0
+    },
+    {
+      "call_id": "manual_hypothesis",
+      "expectation": "Гипотеза и вопрос",
+      "expected_facts": 0
+    },
+    {
+      "call_id": "manual_unconfirmed_quote",
+      "expectation": "Чужие слова без подтверждения",
+      "expected_facts": 0
+    }
+  ]
+}

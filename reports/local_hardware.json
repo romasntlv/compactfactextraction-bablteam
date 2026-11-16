@@ -1,0 +1,9 @@
+{
+  "chip_type": "Apple M4",
+  "machine_model": "Mac16,13",
+  "number_processors": "proc 10:4:6",
+  "physical_memory": "24 GB",
+  "logical_cpus": 10,
+  "physical_cpus": 10,
+  "ram_bytes": 25769803776
+}

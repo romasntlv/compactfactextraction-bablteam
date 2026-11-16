@@ -1,0 +1,11 @@
+{
+  "Id": "sha256:07b179fc81aeeaad39b900cfebcfa4e1e9bb77a294ee3c4c9082766416f310b2",
+  "RepoTags": [
+    "cfe-qwen:cpu"
+  ],
+  "Architecture": "arm64",
+  "Os": "linux",
+  "Size": 1315658596,
+  "Created": "2026-11-15T18:23:04.554724387Z",
+  "model_weights": "read-only mounted models/merged, not included in image size"
+}

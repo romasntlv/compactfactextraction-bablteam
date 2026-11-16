@@ -1,0 +1,8 @@
+{
+  "calls": 3,
+  "mean_s": 31.696298694315676,
+  "p50_s": 28.81790424999781,
+  "p95_s": 38.87394820799818,
+  "calls_per_hour": 113.57793017787321,
+  "scope": "sequential real HTTP, no warmup; first request included; model load before server readiness excluded"
+}

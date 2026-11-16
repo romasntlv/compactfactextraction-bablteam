@@ -1,0 +1,13 @@
+{
+  "calls": 24,
+  "exact_equal_calls": 18,
+  "changed_calls": [
+    "u101_01524:call0000",
+    "u102_00336:call0002",
+    "u101_01479:call0000",
+    "u104_00044:call0000",
+    "u101_00042:call0000",
+    "u101_01013:call0000"
+  ],
+  "note": "Cross-device/dtype equality is diagnostic; score both outputs with official metrics."
+}

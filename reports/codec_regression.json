@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "exact_equal_calls": 385,
+    "codec_errors": {
+      "invalid_rows": 3,
+      "invalid_json": 1
+    }
+  },
+  "val": {
+    "exact_equal_calls": 383,
+    "codec_errors": {
+      "invalid_rows": 0
+    }
+  }
+}

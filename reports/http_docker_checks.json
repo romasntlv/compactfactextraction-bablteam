@@ -1,0 +1,9 @@
+{
+  "health": true,
+  "empty_turns_empty_facts": true,
+  "reject_gold_422": true,
+  "reject_invalid_date_422": true,
+  "real_model_calls": 3,
+  "source_schema_valid": true,
+  "scope": "Linux ARM64 Docker CPU on Mac; not x86_64/CUDA"
+}

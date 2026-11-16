@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.env
+.env.*
+models/base/
+models/adapter/
+models/merged/
+train/prepared/
+train/run/
+*.tar.gz
+*.zip

@@ -1,0 +1,9 @@
+{
+  "checked_on": "2026-11-15",
+  "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-5-3.html",
+  "baseline_name_from_case_readme": "glm-5.3",
+  "total_parameters_without_mtp": 744000000000,
+  "our_parameters": 494032768,
+  "ratio": 1505.9729803185849,
+  "basis": "published architecture, not measured baseline latency"
+}

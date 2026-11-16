@@ -1,0 +1,5 @@
+{"call_id": "manual_unconfirmed_offer", "started_at": "2026-05-20T12:00:00", "turns": [{"idx": 2, "speaker": "operator", "text": "Если захотите, могу предложить подключение пакета «Кино»."}], "facts": []}
+{"call_id": "manual_rejected_guess", "started_at": "2026-05-20T12:00:00", "turns": [{"idx": 2, "speaker": "operator", "text": "Может, у вас уже подключён тариф «Старт»?"}, {"idx": 7, "speaker": "client", "text": "Нет, вы ошиблись. Название моего тарифа не помню."}], "facts": []}
+{"call_id": "manual_third_party", "started_at": "2026-05-20T12:00:00", "turns": [{"idx": 2, "speaker": "client", "text": "У коллеги домашний интернет не работает, но я звоню по другому вопросу."}], "facts": []}
+{"call_id": "manual_hypothesis", "started_at": "2026-05-20T12:00:00", "turns": [{"idx": 2, "speaker": "client", "text": "Если вдруг роутер сломается, можно будет его заменить?"}], "facts": []}
+{"call_id": "manual_unconfirmed_quote", "started_at": "2026-05-20T12:00:00", "turns": [{"idx": 2, "speaker": "client", "text": "Мне сосед сказал, что якобы у всех заявки закрыли. Я этого не проверял."}], "facts": []}

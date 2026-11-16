@@ -1,0 +1,12 @@
+{
+  "mild": {
+    "calls": 96,
+    "changed_turns": 763,
+    "date_annotation_sets_preserved": true
+  },
+  "strong": {
+    "calls": 96,
+    "changed_turns": 1634,
+    "date_annotation_sets_preserved": true
+  }
+}

@@ -1,0 +1,10 @@
+**
+!Dockerfile
+!requirements.lock
+!src
+!src/**
+!configs
+!configs/**
+!evaluation
+!evaluation/**
+**/__pycache__/**

@@ -1,0 +1,27 @@
+{
+  "contract_tests": 9,
+  "training_windows_sha256": "c784e302cab2604ce664334093d9061d9ecc661e7541d314bbd31ddf72445087",
+  "splits": {
+    "val": {
+      "calls": 383,
+      "unique_ids": true,
+      "all_sources_and_facts_valid": true,
+      "empty_facts_rows": 15
+    },
+    "dev_new": {
+      "calls": 385,
+      "unique_ids": true,
+      "all_sources_and_facts_valid": true,
+      "empty_facts_rows": 10
+    }
+  },
+  "docker": {
+    "architecture": "arm64",
+    "config_sha256": "5632616faf7541d4ec66bccd08264f8230ce056077be9a60fa0a0d3fc2ca2845",
+    "tag": [
+      "cfe-qwen:cpu"
+    ]
+  },
+  "merged_weights_sha256_verified": true,
+  "credential_pattern_scan": "no matches"
+}

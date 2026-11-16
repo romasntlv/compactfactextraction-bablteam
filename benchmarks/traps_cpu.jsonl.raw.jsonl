@@ -1,0 +1,5 @@
+{"call_id": "manual_unconfirmed_offer", "target": [2], "text": "[[2,\"G\",\"Марин Олеговна\",\"client\",\"подключение пакета «Кино»\",1,0,null]]"}
+{"call_id": "manual_rejected_guess", "target": [2, 7], "text": "[[7,\"T\",\"клиент\",\"client\",\"Старт\",1,0,null]]"}
+{"call_id": "manual_third_party", "target": [2], "text": "[[2,\"S\",\"домашний интернет\",\"service\",\"домашний интернет не работает\",1,0,null]]"}
+{"call_id": "manual_hypothesis", "target": [2], "text": "[]"}
+{"call_id": "manual_unconfirmed_quote", "target": [2], "text": "[[2,\"G\",\"Марин Олеговна\",\"client\",\"клиент сообщил, что закрытые заявки нет\",1,0,null]]"}

@@ -1,0 +1,264 @@
+{
+  "metrics_version": "2.1",
+  "n_calls": 385,
+  "n_gold_facts": 1805,
+  "n_pred_facts": 2042,
+  "fact_precision": 0.5073,
+  "fact_recall": 0.574,
+  "temporal_recall": 0.5213,
+  "n_temporal": 610,
+  "state_accuracy": 0.5609,
+  "n_state": 583,
+  "grounding_turn": 0.8185,
+  "grounding_span": null,
+  "n_grounded": 1036,
+  "temporal_correct": 318,
+  "state_correct": 327,
+  "empty_facts_rows": 10,
+  "schema_valid_calls": 385,
+  "thresholds_pass": {
+    "temporal_mentor": true,
+    "temporal_readme": true,
+    "state": true
+  },
+  "error_counts": {
+    "valid_from+valid_to": 88,
+    "unmatched_gold": 769,
+    "unmatched_prediction": 1006,
+    "valid_from": 182,
+    "source_turn": 188,
+    "valid_to": 22
+  },
+  "timing": {
+    "n": 385,
+    "mean_s": 6.4006231383584336,
+    "p50_s": 6.348935847000121,
+    "p95_s": 10.378173609999976,
+    "p99_s": 12.34870115900003,
+    "calls_per_hour": 562.445237312205,
+    "one_device_wall_seconds_per_1000_calls": 6400.6231383584345,
+    "partial_calls": 3,
+    "percentile_method": "nearest rank; median averaged",
+    "scope": "synchronized extraction incl tokenization/decoding; excludes file IO/load/HTTP; cold call flagged per row"
+  }
+}
+{
+  "metrics_version": "2.1",
+  "n_calls": 24,
+  "n_gold_facts": 115,
+  "n_pred_facts": 118,
+  "fact_precision": 0.5169,
+  "fact_recall": 0.5304,
+  "temporal_recall": 0.5667,
+  "n_temporal": 30,
+  "state_accuracy": 0.4,
+  "n_state": 40,
+  "grounding_turn": 0.7869,
+  "grounding_span": null,
+  "n_grounded": 61,
+  "temporal_correct": 17,
+  "state_correct": 16,
+  "empty_facts_rows": 0,
+  "schema_valid_calls": 24,
+  "thresholds_pass": {
+    "temporal_mentor": true,
+    "temporal_readme": true,
+    "state": false
+  },
+  "error_counts": {
+    "valid_from": 10,
+    "source_turn": 13,
+    "unmatched_gold": 54,
+    "unmatched_prediction": 57,
+    "valid_from+valid_to": 3
+  },
+  "timing": {
+    "n": 24,
+    "mean_s": 5.622704608250028,
+    "p50_s": 5.592693211999858,
+    "p95_s": 8.289839247000145,
+    "p99_s": 9.075691511000059,
+    "calls_per_hour": 640.2612711892826,
+    "one_device_wall_seconds_per_1000_calls": 5622.704608250027,
+    "partial_calls": 0,
+    "percentile_method": "nearest rank; median averaged",
+    "scope": "synchronized extraction incl tokenization/decoding; excludes file IO/load/HTTP; cold call flagged per row"
+  }
+}
+{
+  "metrics_version": "2.1",
+  "n_calls": 96,
+  "n_gold_facts": 450,
+  "n_pred_facts": 506,
+  "fact_precision": 0.5099,
+  "fact_recall": 0.5733,
+  "temporal_recall": 0.5357,
+  "n_temporal": 168,
+  "state_accuracy": 0.5878,
+  "n_state": 148,
+  "grounding_turn": 0.8605,
+  "grounding_span": null,
+  "n_grounded": 258,
+  "temporal_correct": 90,
+  "state_correct": 87,
+  "empty_facts_rows": 4,
+  "schema_valid_calls": 96,
+  "thresholds_pass": {
+    "temporal_mentor": true,
+    "temporal_readme": true,
+    "state": true
+  },
+  "error_counts": {
+    "source_turn": 36,
+    "valid_from": 51,
+    "unmatched_gold": 192,
+    "unmatched_prediction": 248,
+    "valid_to": 6,
+    "valid_from+valid_to": 21
+  },
+  "timing": {
+    "n": 96,
+    "mean_s": 6.374477959416723,
+    "p50_s": 6.152865324500226,
+    "p95_s": 10.436578947000271,
+    "p99_s": 11.729513136000605,
+    "calls_per_hour": 564.7521291813216,
+    "one_device_wall_seconds_per_1000_calls": 6374.477959416723,
+    "partial_calls": 0,
+    "percentile_method": "nearest rank; median averaged",
+    "scope": "synchronized extraction incl tokenization/decoding; excludes file IO/load/HTTP; cold call flagged per row"
+  }
+}
+{
+  "metrics_version": "2.1",
+  "n_calls": 24,
+  "n_gold_facts": 115,
+  "n_pred_facts": 141,
+  "fact_precision": 0.4539,
+  "fact_recall": 0.5565,
+  "temporal_recall": 0.6176,
+  "n_temporal": 34,
+  "state_accuracy": 0.45,
+  "n_state": 40,
+  "grounding_turn": 0.7656,
+  "grounding_span": null,
+  "n_grounded": 64,
+  "temporal_correct": 21,
+  "state_correct": 18,
+  "empty_facts_rows": 0,
+  "schema_valid_calls": 24,
+  "thresholds_pass": {
+    "temporal_mentor": true,
+    "temporal_readme": true,
+    "state": false
+  },
+  "error_counts": {
+    "valid_from": 10,
+    "source_turn": 15,
+    "unmatched_gold": 51,
+    "unmatched_prediction": 77,
+    "valid_from+valid_to": 2,
+    "valid_to": 1
+  },
+  "timing": {
+    "n": 24,
+    "mean_s": 9.875534091918476,
+    "p50_s": 9.257258166500833,
+    "p95_s": 13.918207457987592,
+    "p99_s": 20.73815279098926,
+    "calls_per_hour": 364.5372459344772,
+    "one_device_wall_seconds_per_1000_calls": 9875.534091918476,
+    "partial_calls": 0,
+    "percentile_method": "nearest rank; median averaged",
+    "scope": "synchronized extraction incl tokenization/decoding; excludes file IO/load/HTTP; cold call flagged per row"
+  }
+}
+{
+  "metrics_version": "2.1",
+  "n_calls": 24,
+  "n_gold_facts": 115,
+  "n_pred_facts": 141,
+  "fact_precision": 0.4539,
+  "fact_recall": 0.5565,
+  "temporal_recall": 0.6176,
+  "n_temporal": 34,
+  "state_accuracy": 0.45,
+  "n_state": 40,
+  "grounding_turn": 0.7656,
+  "grounding_span": null,
+  "n_grounded": 64,
+  "temporal_correct": 21,
+  "state_correct": 18,
+  "empty_facts_rows": 0,
+  "schema_valid_calls": 24,
+  "thresholds_pass": {
+    "temporal_mentor": true,
+    "temporal_readme": true,
+    "state": false
+  },
+  "error_counts": {
+    "valid_from": 10,
+    "source_turn": 15,
+    "unmatched_gold": 51,
+    "unmatched_prediction": 77,
+    "valid_from+valid_to": 2,
+    "valid_to": 1
+  },
+  "timing": {
+    "n": 24,
+    "mean_s": 6.960018337958317,
+    "p50_s": 6.7254068125000686,
+    "p95_s": 10.15904613299972,
+    "p99_s": 12.34870115900003,
+    "calls_per_hour": 517.2400165049048,
+    "one_device_wall_seconds_per_1000_calls": 6960.018337958318,
+    "partial_calls": 0,
+    "percentile_method": "nearest rank; median averaged",
+    "scope": "synchronized extraction incl tokenization/decoding; excludes file IO/load/HTTP; cold call flagged per row"
+  }
+}
+{
+  "metrics_version": "2.1",
+  "n_calls": 96,
+  "n_gold_facts": 450,
+  "n_pred_facts": 498,
+  "fact_precision": 0.51,
+  "fact_recall": 0.5644,
+  "temporal_recall": 0.5595,
+  "n_temporal": 168,
+  "state_accuracy": 0.5878,
+  "n_state": 148,
+  "grounding_turn": 0.8701,
+  "grounding_span": null,
+  "n_grounded": 254,
+  "temporal_correct": 94,
+  "state_correct": 87,
+  "empty_facts_rows": 5,
+  "schema_valid_calls": 96,
+  "thresholds_pass": {
+    "temporal_mentor": true,
+    "temporal_readme": true,
+    "state": true
+  },
+  "error_counts": {
+    "source_turn": 33,
+    "valid_from": 49,
+    "unmatched_gold": 196,
+    "unmatched_prediction": 244,
+    "valid_to": 5,
+    "valid_from+valid_to": 20
+  },
+  "timing": {
+    "n": 96,
+    "mean_s": 6.2943862367708165,
+    "p50_s": 6.366339737999965,
+    "p95_s": 9.92663733900008,
+    "p99_s": 11.696408893999887,
+    "calls_per_hour": 571.938210427788,
+    "one_device_wall_seconds_per_1000_calls": 6294.386236770817,
+    "partial_calls": 0,
+    "percentile_method": "nearest rank; median averaged",
+    "scope": "synchronized extraction incl tokenization/decoding; excludes file IO/load/HTTP; cold call flagged per row"
+  }
+}
+{'calls': 385, 'exact_equal_calls': 338, 'note': 'Cross-device/dtype equality is diagnostic; score both outputs with official metrics.'}

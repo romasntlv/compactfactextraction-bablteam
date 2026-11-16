@@ -1,0 +1,9 @@
+{
+  "calls": 1600,
+  "families": 8,
+  "contrast_groups": 100,
+  "empty_calls": 200,
+  "seed": 20261115,
+  "sha256": "425e9ae65444cece19ddfb6e1991c6a3a1188195db9aac75afd29592ef2df1c3",
+  "scope": "train-only pilot; structural and contrast tests passed; training efficacy unmeasured"
+}
